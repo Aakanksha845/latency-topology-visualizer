@@ -8,7 +8,7 @@ import { EXCHANGES, Exchange } from "../data/exchanges";
 import Marker from "./Marker";
 import ExchangeTooltip from "./ExchangeTooltip";
 import ArcConnection from "./ArcConnection";
-import { generateLatencyData, LatencyLink } from "../data/latencyData";
+import { LatencyLink } from "../data/latencyData";
 import CloudRegions from "./CloudRegions";
 import LatencyHeatmap from "./LatencyHeatmap";
 import {
@@ -17,7 +17,6 @@ import {
   STARS_COUNT_DESKTOP,
   STARS_COUNT_MOBILE,
   COLORS,
-  MARKER_PULSE_SPEED,
 } from "../constants";
 import { useIsMobile } from "../hooks/usePerformance";
 
