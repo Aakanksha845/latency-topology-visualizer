@@ -225,8 +225,8 @@ const Globe = ({
           minDistance={3.5}
           maxDistance={50}
           touches={{
-            ONE: 0, // Disable one-finger rotation on mobile
-            TWO: 2, // Enable two-finger rotation/zoom
+            ONE: 0,
+            TWO: 2,
           }}
         />
       </Canvas>
